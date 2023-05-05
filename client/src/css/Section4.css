@@ -1,0 +1,120 @@
+.section4{
+    background:#FE364F;
+}
+.btnnn{
+    color:#FE364F;
+    background:white;
+    width:220px;
+    height:70px;
+}
+.line1{
+    width:455px;
+    background:black;
+    height:4px;
+    margin-bottom:5px;
+}
+.textDirection{
+    font-size:150px;
+    font-weight:900;
+    -webkit-text-stroke: 2px white;
+    color:transparent;
+    margin-bottom:-5.5rem;
+}
+@media only screen and (max-width:600px) {
+    .inputDiv3{
+        display:flex;
+        justify-content:center;
+    }
+    .line1{
+        width:190px;
+        background:black;
+        height:2px;
+        margin-bottom:5px;
+    }
+    .section4{
+        background:#FE364F;
+        height:600px;
+    }
+    .btnnn{
+        color:#FE364F;
+        background:white;
+        width:130px;
+        height:35px;
+    }
+    .textDirection{
+        font-size:60px;
+        font-weight:900;
+        margin-bottom:220px;
+        -webkit-text-stroke: 1px white;
+        color:transparent;
+    }
+}
+@media only screen and (max-width:378px) {
+    .textDirection{
+        font-size:60px;
+        font-weight:900;
+        margin-bottom:220px;
+        -webkit-text-stroke: 1px white;
+        color:transparent;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .section4{
+    background:#FE364F;
+    height:670px;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:990px){
+    .line1{
+        width:300px;
+        background:black;
+        height:1.5px;
+        margin-bottom:7px;
+    }
+  
+    .textDirection{
+        font-size:70px;
+        font-weight:900;
+        margin-bottom:210px;
+        -webkit-text-stroke: 1px white;
+        color:transparent;
+    }
+    .btnnn{
+        color:#FE364F;
+        background:white;
+        height:55px;
+        width:180px;
+
+    }
+    .section4{
+        background:#FE364F;
+        height:780px;
+    }
+    .inputDiv3{
+        display:flex;
+        justify-content:center;
+    }
+}
+@media only screen and (min-width:1400px) {
+.scale{
+    height:300px;
+}
+
+}
+@media only screen and (min-width:1800px) {
+    .section4{
+        background:#FE364F;
+        height:850px;
+    }
+    
+    }
+    @media only screen and (min-width:1600px) {
+       
+        .section4{
+            background:#FE364F;
+            height:820px;
+        }
+        
+        }

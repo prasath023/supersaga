@@ -1,0 +1,109 @@
+.iPhone{
+    height:550px;
+    width:275px;
+
+}
+.right{
+    height:550px;
+}
+
+.left{
+    height:500px;
+}
+.getAccess{
+    color:#FE364F;
+}
+.mobileScreen2{
+    height:521px;
+    width:241.3px;
+    border-radius:28px;
+    margin-top:-535.7px;
+    margin-left:17.2px;
+}
+.success{
+    display:flex;
+    opacity:0;
+    transition:4s;
+    animation:success 10s linear;
+    }
+    @keyframes success {
+      0%{
+    display:flex;
+    opacity:0.5;
+      }
+      25%{
+    display:flex;
+    opacity:0.7;
+      }
+      75%{
+    opacity:1;
+    display:flex;
+      }
+      100%{
+    opacity:0;
+    
+        display:none;
+      }
+    }
+    
+
+@media only screen and (max-width:600px) {
+    .iPhone{
+        height:230px;
+        width:115px;
+    }
+    .mobileScreen2{
+        height:218px;
+        width:103.4px;
+        margin-right:20px;
+        border-radius:13.4px; 
+        margin-top:-224.1px;
+        margin-left:6px;
+    }
+    .textLeft{
+        font-size:10.5px;
+    }
+    .textMid{
+        font-size:9px;
+    }
+    .textDown{
+        font-size:9px;
+    }
+    
+    .left{
+        height:200px;
+    }
+    .right{
+        height:300px;
+    }
+}
+
+@media only screen and (min-width:750px) and (max-width:990px) {
+    .iPhone{
+        height:370px;
+        width:190px;
+    }
+    .mobileScreen2{
+        height:352.5px;
+        width:168px;
+        border-radius:5px; 
+        margin-top:-361px;
+        margin-left:11px;
+    }
+    .textLeft{
+        font-size:13px;
+    }
+    .textMid{
+        font-size:10px;
+    }
+    .textDown{
+        font-size:13px;
+    }
+    
+    .left{
+        height:300px;
+    }
+    .right{
+        height:400px;
+    }
+}

@@ -1,0 +1,154 @@
+.swiperCss{
+width:1200.5px;
+height:720px;
+display:flex;
+justify-content:center;
+}
+.mainImg{
+    width:1010px;
+    z-index:3;
+}
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+}
+.swiper-pagination-bullet{
+    background:white !important;
+    width:15px !important;
+    height:15px !important;
+    margin-right:15px  !important;
+}
+.slide{
+width:936.8px;
+height:596px;
+left:132px;
+top:37px;
+z-index:2;
+border-radius:4px;
+}
+.slideMob{
+height:265px;
+width:581px;
+left:14px;
+top:192px;
+z-index:2;
+border-radius:4px;
+}
+.iPhone1{
+    width:610px;
+    height:300px;
+    z-index:3
+}
+.phoneDiv{
+    height:650px;
+}
+
+@media only screen and (max-width:600px) {
+.swiperCss{
+width:370px;
+display:flex;
+justify-content:center;
+height:270px;
+
+}
+.slide{
+height:206.9px;
+width:324.5px;
+border-radius:7px;
+left:22.5px;
+top:12.5px;
+z-index:1;
+}
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+}
+.swiper-pagination-bullet{
+    background:white !important;
+    width:8px !important;
+    height:8px !important;
+    margin-right:10px  !important;
+}
+.slideMob{
+height:93px;
+width:205.5px;
+left:4.5px;
+top:10px;
+z-index:2;
+border-radius:4px;
+}
+.phoneDiv{
+    height:225px;
+}
+.iPhone1{
+        width:215px;
+        height:105px;
+        bottom:22px;
+    }
+.mainImg{
+    width:350px;
+    z-index:3;
+}
+
+}
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+    .swiperCss{
+        width:550px;
+        display:flex;
+height:370px;
+        justify-content:center;
+        }
+        .swiper-pagination-bullet-active {
+            background-color: white !important;
+        }
+        .swiper-pagination-bullet{
+            background:white !important;
+            width:10px !important;
+            height:10px !important;
+            margin-right:13px  !important;
+        }
+        .slide{
+        height:296px;
+        width:464px;
+        border-radius:7px;
+        left:42.5px;
+        top:17.5px;
+        z-index:1;
+        }
+        .phoneDiv{
+            height:320px;
+        }
+        .slideMob{
+        height:133px;
+        width:299px;
+        left:8px;
+        top:94px;
+        z-index:2;
+        }
+        .iPhone1{
+                width:315px;
+                height:150px;
+            }
+        .mainImg{
+            width:500px;
+            z-index:3;
+        }
+
+}
+/* @media only screen and (min-width:1200px) {
+    .iPhone1{
+        margin-top:-400px;
+        width:610px;
+        height:300px;
+        z-index:3
+    }
+    
+}
+@media only screen and (min-width:900px) and (max-width:1200px) {
+    .iPhone1{
+        margin-bottom:-300px;
+        width:610px;
+        height:300px;
+        z-index:3
+    }
+    
+} */

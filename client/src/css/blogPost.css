@@ -1,0 +1,44 @@
+.blogImg{
+width:75vw;
+height:45vh;
+object-fit:cover
+}
+
+.blogImgContent{
+width:40vw;
+height:45vh;
+object-fit:cover
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .blogImg{
+        width:75vw;
+        height:28vh;
+        object-fit:cover
+        }
+        
+        .blogImgContent{
+        width:50vw;
+        height:23vh;
+        object-fit:cover
+        }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:990px){
+
+    .blogImg{
+        width:75vw;
+        height:33vh;
+        object-fit:cover
+        }
+        
+        .blogImgContent{
+        width:50vw;
+        height:29vh;
+        object-fit:cover
+        }
+
+}
